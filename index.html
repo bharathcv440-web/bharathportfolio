@@ -1,0 +1,1442 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Bharath C V — Aspiring Software Developer specializing in Java, Spring Boot, Backend Systems, and clean digital experiences.">
+  <meta name="author" content="Bharath C V">
+  <title>BHARATH C V — Aspiring Software Developer</title>
+
+  <!-- Google Fonts: Plus Jakarta Sans, Inter, JetBrains Mono & Silkscreen (Pixel Art Aesthetic) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Core Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-loading">
+
+  <!-- ========================================================= -->
+  <!-- CINEMATIC OPENING EXPERIENCE                              -->
+  <!-- Minimalist off-white intro: precision → reveal → reveal   -->
+  <!-- ========================================================= -->
+  <div id="intro-screen" class="intro-screen" aria-hidden="true">
+    <div class="intro-container">
+      <div class="intro-ambient-shape">
+        <svg viewBox="0 0 240 240" fill="none" class="intro-svg-arc">
+          <circle cx="120" cy="120" r="95" stroke="currentColor" stroke-width="1.5" class="intro-circle" />
+          <path d="M 40,120 A 80,80 0 0,1 200,120" stroke="currentColor" stroke-width="2.5" class="intro-arc" />
+        </svg>
+      </div>
+
+      <div class="intro-content">
+        <span class="intro-tagline">SOFTWARE &amp; SYSTEMS</span>
+        <h1 class="intro-title">BHARATH C V</h1>
+        <p class="intro-role">ASPIRING SOFTWARE DEVELOPER</p>
+      </div>
+
+      <div class="intro-indicator">
+        <span class="intro-dot"></span>
+        <span class="intro-status-text">Entering Workspace</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================= -->
+  <!-- FLOATING NAVIGATION PILL                                  -->
+  <!-- Compact rounded pill floating near the top of the canvas  -->
+  <!-- ========================================================= -->
+  <header class="floating-nav-wrapper" id="site-header">
+    <nav class="floating-nav-pill" id="main-nav" aria-label="Primary Navigation">
+      <a href="#hero" class="nav-brand" aria-label="Bharath C V Home">
+        <span class="nav-monogram">B</span>
+        <span class="nav-brand-text">BHARATH C V</span>
+      </a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#about" class="nav-item-link">About</a></li>
+        <li><a href="#skills" class="nav-item-link">Skills</a></li>
+        <li><a href="#timeline" class="nav-item-link">Timeline</a></li>
+        <li><a href="#projects" class="nav-item-link">Projects</a></li>
+        <li><a href="#video" class="nav-item-link">Video</a></li>
+        <li><a href="#testimonials" class="nav-item-link">Feedback</a></li>
+        <li><a href="#ai-chat" class="nav-item-link">AI Twin</a></li>
+        <li><a href="#contact" class="nav-item-link">Contact</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <!-- ========================================================= -->
+        <!-- PLACEHOLDER: NIGHT MODE TOGGLE                            -->
+        <!-- Sleek minimal theme toggle pill with state indicator      -->
+        <!-- ========================================================= -->
+        <button id="theme-toggle" class="theme-pill-btn" type="button" aria-label="Toggle Night Mode" aria-pressed="false" title="Toggle Night Mode">
+          <span class="theme-icon light-icon" aria-hidden="true">☀️</span>
+          <span class="theme-icon dark-icon" aria-hidden="true">🌙</span>
+          <span class="theme-pill-label">Night</span>
+        </button>
+
+        <button id="mobile-toggle" class="mobile-toggle-btn" type="button" aria-label="Open Navigation Menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ========================================================= -->
+  <!-- MAIN CONTENT: FLOATING OBJECTS CANVAS                     -->
+  <!-- Warm white negative space with elevated tactile cards     -->
+  <!-- ========================================================= -->
+  <main id="main-content" class="content-canvas">
+
+    <!-- ========================================================= -->
+    <!-- PLACEHOLDER: HERO / FIRST VIEW                            -->
+    <!-- Striking typography with organically floating cards       -->
+    <!-- ========================================================= -->
+    <section id="hero" class="hero-canvas" aria-labelledby="hero-title">
+      <div class="canvas-inner hero-inner">
+
+        <!-- Central Typographic Anchor -->
+        <div class="hero-typography">
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span class="eyebrow-text">PORTFOLIO / 2026</span>
+          </div>
+
+          <h1 id="hero-title" class="hero-name">BHARATH C V</h1>
+          <h2 class="hero-profession">ASPIRING SOFTWARE DEVELOPER</h2>
+
+          <p class="hero-one-liner">
+            Designing clean backend services, robust architectures, and refined digital experiences with care and purpose.
+          </p>
+
+          <div class="hero-action-row">
+            <a href="#projects" class="action-pill primary-pill">Explore Work</a>
+            <a href="#contact" class="action-pill secondary-pill">Get in Touch</a>
+            <a href="bharath.pdf" target="_blank" class="action-pill outline-pill" download>Curriculum Vitae</a>
+          </div>
+        </div>
+
+        <!-- Organically Positioned Floating UI Cards -->
+        <div class="hero-floating-elements" aria-hidden="true">
+          
+          <!-- Floating Card 1: Portrait / Identity Card -->
+          <div class="floating-card hero-card card-profile" data-depth="1.2">
+            <div class="card-profile-header">
+              <img src="profile.jpg" alt="Bharath C V Portrait" class="avatar-img" />
+              <div class="avatar-meta">
+                <span class="avatar-name">Bharath C V</span>
+                <span class="avatar-role">B.E. Candidate &middot; 2028</span>
+              </div>
+            </div>
+            <div class="card-status-badge">
+              <span class="pulse-indicator"></span>
+              <span>Available for 2025/2026 Roles</span>
+            </div>
+          </div>
+
+          <!-- Floating Card 2: Currently Learning -->
+          <div class="floating-card hero-card card-learning" data-depth="0.8">
+            <div class="card-label">CURRENT FOCUS</div>
+            <p class="card-highlight-text">Distributed Systems &amp; Spring Boot Microservices</p>
+            <div class="micro-tags">
+              <span class="tag-pill">Java 21</span>
+              <span class="tag-pill">REST APIs</span>
+              <span class="tag-pill">MySQL</span>
+            </div>
+          </div>
+
+          <!-- Floating Card 3: Selected Competencies -->
+          <div class="floating-card hero-card card-competencies" data-depth="1.5">
+            <div class="card-label">CORE ARCHITECTURE</div>
+            <ul class="mini-skill-list">
+              <li><span class="check-icon">&#10003;</span> Object-Oriented Design</li>
+              <li><span class="check-icon">&#10003;</span> High Cohesion / Loose Coupling</li>
+              <li><span class="check-icon">&#10003;</span> Relational Schema Tuning</li>
+            </ul>
+          </div>
+
+          <!-- Floating Card 4: Academic Metric Badge -->
+          <div class="floating-card hero-card card-metric" data-depth="1.0">
+            <span class="metric-score">8.0</span>
+            <div class="metric-info">
+              <span class="metric-title">SGPA Secured</span>
+              <span class="metric-sub">Semester Distinction</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================= -->
+    <!-- ========================================================================== -->
+    <!-- ABOUT ME SECTION: PREMIUM PORTRAIT & EDITORIAL NARRATIVE                   -->
+    <!-- Features personal photo inside a large softly curved card with subtle      -->
+    <!-- shadow and whitespace, paired with responsive, modern biographical text.   -->
+    <!-- ========================================================================== -->
+    <section id="about" class="section-canvas about-section" aria-labelledby="about-heading">
+      <div class="canvas-inner">
+        
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">01 / ABOUT ME</span>
+            <span class="pixel-badge"><span class="pixel-dot"></span> DEVELOPER PROFILE</span>
+          </div>
+          <h2 id="about-heading" class="section-heading">Architecting Systems with Rigor &amp; Intent</h2>
+          <p class="section-subtext">A deliberate blend of engineering discipline, JVM backend craftsmanship, and human-centric design ethics.</p>
+        </header>
+
+        <div class="about-premium-layout">
+          
+          <!-- Column 1: Large Softly Curved Photo Card with Plenty of Whitespace -->
+          <div class="floating-card about-photo-card" data-depth="0.6">
+            <div class="photo-card-inner">
+              <!-- Softly Curved Image Frame (Realistic and natural with zero artificial filters) -->
+              <div class="photo-frame">
+                <img 
+                  src="profile.jpg" 
+                  alt="Portrait of Bharath C V — Aspiring Software Developer" 
+                  class="about-portrait-img" 
+                  loading="eager"
+                />
+                <!-- Subtle Live Status Indicator Badge -->
+                <div class="photo-status-badge">
+                  <span class="status-pulse-dot"></span>
+                  <span class="status-badge-text">Available for 2025/2026 Roles</span>
+                </div>
+              </div>
+
+              <!-- Cohesive Identity & Meta Details Integrated into the Card -->
+              <div class="photo-card-caption">
+                <div class="caption-identity">
+                  <h3 class="caption-name">Bharath C V</h3>
+                  <p class="caption-title">Aspiring Software Developer &amp; B.E. Candidate</p>
+                </div>
+                <div class="caption-tags">
+                  <span class="caption-tag">📍 Chikkamagaluru, India</span>
+                  <span class="caption-tag">⚡ CGPA: 7.35</span>
+                  <span class="caption-tag">🏆 8.0 SGPA Distinction</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Column 2: Spacious Editorial Narrative & Competency Pillars -->
+          <div class="about-narrative-column">
+            
+            <article class="floating-card about-story-card">
+              <span class="story-kicker">PERSPECTIVE &amp; TRAJECTORY</span>
+              <h3 class="story-headline">
+                Engineering fundamentals driven by a passion for scalable software craftsmanship.
+              </h3>
+
+              <div class="story-body">
+                <p>
+                  I am an aspiring software developer currently pursuing my Bachelor of Engineering in 
+                  Electrical and Electronics Engineering at <strong>Adichunchanagiri Institute of Technology (AIT)</strong>, 
+                  Chikkamagaluru (2025–2028). My engineering path is anchored in a deep curiosity for how distributed services, 
+                  the JVM, and relational database engines orchestrate mission-critical logic under the hood.
+                </p>
+                <p>
+                  Whether architecting enterprise-grade <strong>Spring Boot microservices</strong> with strict MVC separation 
+                  and 3NF MySQL schemas, or leading an interdisciplinary <strong>piezoelectric energy harvesting</strong> laboratory 
+                  prototype, I prioritize modular boundaries, self-documenting code, and measurable performance over fragile shortcuts.
+                </p>
+              </div>
+
+              <!-- Quick Pillars Grid: 4 Core Pillars of Technical Excellence -->
+              <div class="about-pillars-grid">
+                <div class="pillar-item">
+                  <span class="pillar-icon">☕</span>
+                  <div class="pillar-info">
+                    <strong class="pillar-title">Backend Architecture</strong>
+                    <span class="pillar-desc">Clean Java 21, Spring Boot, REST APIs, &amp; JPA</span>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <span class="pillar-icon">🗄️</span>
+                  <div class="pillar-info">
+                    <strong class="pillar-title">Data Modeling &amp; ACID</strong>
+                    <span class="pillar-desc">Normalized MySQL schemas &amp; query optimization</span>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <span class="pillar-icon">🎯</span>
+                  <div class="pillar-info">
+                    <strong class="pillar-title">Academic Merit</strong>
+                    <span class="pillar-desc">Secured standout 8.0 SGPA in Semester 2</span>
+                  </div>
+                </div>
+
+                <div class="pillar-item">
+                  <span class="pillar-icon">🌐</span>
+                  <div class="pillar-info">
+                    <strong class="pillar-title">Modern Delivery</strong>
+                    <span class="pillar-desc">Git version control, CI/CD mindset, &amp; web standards</span>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Action Buttons Row -->
+              <div class="about-cta-row">
+                <a href="bharath.pdf" target="_blank" download class="action-pill primary-pill">
+                  <span>Download Curriculum Vitae</span>
+                  <span class="btn-arrow">&darr;</span>
+                </a>
+                <a href="#projects" class="action-pill secondary-pill">
+                  <span>Explore Work</span>
+                  <span class="btn-arrow">&rarr;</span>
+                </a>
+                <a href="#contact" class="action-pill outline-pill">Get in Touch</a>
+              </div>
+            </article>
+
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 5. SKILLS SECTION (Prompt 5)                                               -->
+    <!-- Highlights core software engineering competencies with pixel-art progress   -->
+    <!-- bars, retro level badges, tech icons, and interactive category filters.     -->
+    <!-- ========================================================================== -->
+    <section id="skills" class="section-canvas" aria-labelledby="skills-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">02 / CAPABILITIES</span>
+            <!-- Pixel Art Aesthetic Badge: Represents retro gamer stat tracker -->
+            <span class="pixel-badge"><span class="pixel-dot"></span> 8-BIT STAT MATRIX</span>
+          </div>
+          <h2 id="skills-heading" class="section-heading">Technical Ecosystem &amp; Competencies</h2>
+          <p class="section-subtext">Core software engineering competencies, backend frameworks, relational systems, and tools evaluated with precision.</p>
+        </header>
+
+        <!-- Interactive Category Filter for Skills (Subtle filter interactivity) -->
+        <div class="skills-filter-nav" role="tablist" aria-label="Filter Skills by Competency">
+          <button class="skill-filter-btn active" data-filter="all" role="tab" aria-selected="true">All Domains</button>
+          <button class="skill-filter-btn" data-filter="backend" role="tab" aria-selected="false">Backend &amp; Core</button>
+          <button class="skill-filter-btn" data-filter="databases" role="tab" aria-selected="false">Databases</button>
+          <button class="skill-filter-btn" data-filter="frontend" role="tab" aria-selected="false">Frontend &amp; UI</button>
+          <button class="skill-filter-btn" data-filter="tooling" role="tab" aria-selected="false">Tools &amp; R&amp;D</button>
+        </div>
+
+        <div class="skills-asymmetric-grid">
+          
+          <!-- ================================================================= -->
+          <!-- Category Card 1: Backend & Core Engineering                       -->
+          <!-- Focus: Java, Spring Boot, C, and Object-Oriented Architecture     -->
+          <!-- ================================================================= -->
+          <article class="floating-card skill-cluster featured-cluster" data-category="backend">
+            <div class="cluster-header">
+              <div class="cluster-icon pixel-icon-frame" aria-hidden="true">☕</div>
+              <div>
+                <div class="cluster-badge-row">
+                  <h3 class="cluster-title">Backend Architecture</h3>
+                  <span class="pixel-lvl-tag">LVL 92</span>
+                </div>
+                <span class="cluster-subtitle">Primary Development Stack</span>
+              </div>
+            </div>
+            <p class="cluster-summary">Engineered with high cohesion and loose coupling. Proficient in crafting robust Java microservices and RESTful API backends.</p>
+
+            <!-- Skill Progress Bars with Pixel Art Aesthetic -->
+            <div class="skill-progress-list">
+              
+              <!-- Skill: Java (Core OOP & JVM) -->
+              <!-- Represents deep mastery in OOP, collections, multithreading, and JVM mechanics -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Java (Core &amp; OOP)</span>
+                  <span class="stat-value pixel-font">92%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Java Mastery: 92%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 92%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: Spring Boot & Microservices -->
+              <!-- Represents enterprise framework development: REST APIs, MVC, and dependency injection -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Spring Boot &amp; REST APIs</span>
+                  <span class="stat-value pixel-font">88%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Spring Boot Mastery: 88%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 88%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: C Programming (System Fundamentals) -->
+              <!-- Represents foundational memory management, pointer manipulation, and low-level logic -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> C Programming (Low-Level Logic)</span>
+                  <span class="stat-value pixel-font">80%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="C Programming: 80%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 80%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: Object-Oriented Architecture -->
+              <!-- Represents design patterns, SOLID principles, and clean layer segregation -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> OOP &amp; System Architecture</span>
+                  <span class="stat-value pixel-font">86%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="OOP & Architecture: 86%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="86" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 86%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Styled Skill Badges List -->
+            <div class="pill-cloud">
+              <span class="skill-pill active-pill">Java 21</span>
+              <span class="skill-pill active-pill">Spring Boot</span>
+              <span class="skill-pill">RESTful APIs</span>
+              <span class="skill-pill">OOP Design</span>
+              <span class="skill-pill">MVC Pattern</span>
+              <span class="skill-pill">C Fundamentals</span>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Category Card 2: Database & Data Storage                          -->
+          <!-- Focus: MySQL, Relational Normalization, Indexing, and ACID        -->
+          <!-- ================================================================= -->
+          <article class="floating-card skill-cluster" data-category="databases">
+            <div class="cluster-header">
+              <div class="cluster-icon pixel-icon-frame" aria-hidden="true">🗄️</div>
+              <div>
+                <div class="cluster-badge-row">
+                  <h3 class="cluster-title">Databases &amp; Storage</h3>
+                  <span class="pixel-lvl-tag">LVL 88</span>
+                </div>
+                <span class="cluster-subtitle">Relational Persistence</span>
+              </div>
+            </div>
+            <p class="cluster-summary">Designing normalized 3NF schemas, optimizing B-Tree indexes, and ensuring transactional durability.</p>
+
+            <div class="skill-progress-list">
+              
+              <!-- Skill: MySQL Relational Database -->
+              <!-- Represents expertise in relational database architecture and complex join queries -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> MySQL &amp; Relational Modeling</span>
+                  <span class="stat-value pixel-font">88%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="MySQL: 88%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 88%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: Query Optimization & Indexing -->
+              <!-- Represents execution plan analysis, index selection, and database speed tuning -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> B-Tree Indexing &amp; Query Tuning</span>
+                  <span class="stat-value pixel-font">82%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Query Tuning: 82%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 82%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: ACID Transactions & Concurrency -->
+              <!-- Represents transactional isolation, atomicity, and multi-user data consistency -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> ACID Transactions &amp; Integrity</span>
+                  <span class="stat-value pixel-font">85%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="ACID Transactions: 85%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 85%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="pill-cloud">
+              <span class="skill-pill active-pill">MySQL</span>
+              <span class="skill-pill">3NF Normalization</span>
+              <span class="skill-pill">B-Tree Indexes</span>
+              <span class="skill-pill">ACID Compliance</span>
+              <span class="skill-pill">Stored Procedures</span>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Category Card 3: Frontend & Modern Interface Engineering          -->
+          <!-- Focus: Semantic HTML5, Modern CSS Design Systems, JavaScript     -->
+          <!-- ================================================================= -->
+          <article class="floating-card skill-cluster" data-category="frontend">
+            <div class="cluster-header">
+              <div class="cluster-icon pixel-icon-frame" aria-hidden="true">🎨</div>
+              <div>
+                <div class="cluster-badge-row">
+                  <h3 class="cluster-title">Frontend &amp; UI Engineering</h3>
+                  <span class="pixel-lvl-tag">LVL 90</span>
+                </div>
+                <span class="cluster-subtitle">Accessible User Experiences</span>
+              </div>
+            </div>
+            <p class="cluster-summary">Crafting accessible semantic structures with fluid layouts, custom CSS tokens, and reactive JavaScript.</p>
+
+            <div class="skill-progress-list">
+              
+              <!-- Skill: Semantic HTML5 & Modern CSS3 -->
+              <!-- Represents pixel-perfect layouts, CSS custom properties, and responsive typography -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Semantic HTML5 &amp; Modern CSS</span>
+                  <span class="stat-value pixel-font">90%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="HTML5 & CSS: 90%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 90%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: JavaScript (ES6+ & Async/Await) -->
+              <!-- Represents reactive DOM manipulation, Fetch API, and event handling -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> JavaScript (ES6+ &amp; DOM APIs)</span>
+                  <span class="stat-value pixel-font">85%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Modern JavaScript: 85%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 85%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: Responsive & Adaptive Design -->
+              <!-- Represents multi-device optimization across mobile, tablet, and widescreen monitors -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Responsive &amp; Fluid Layouts</span>
+                  <span class="stat-value pixel-font">92%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Responsive Layouts: 92%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 92%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="pill-cloud">
+              <span class="skill-pill active-pill">Semantic HTML5</span>
+              <span class="skill-pill active-pill">Vanilla CSS</span>
+              <span class="skill-pill">Modern JavaScript</span>
+              <span class="skill-pill">Pixel Art Accents</span>
+              <span class="skill-pill">Accessibility (a11y)</span>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Category Card 4: Tooling & Engineering Disciplines                -->
+          <!-- Focus: Git, GitHub, IDEs, Hardware Instrumentation, and Testing   -->
+          <!-- ================================================================= -->
+          <article class="floating-card skill-cluster" data-category="tooling">
+            <div class="cluster-header">
+              <div class="cluster-icon pixel-icon-frame" aria-hidden="true">🛠️</div>
+              <div>
+                <div class="cluster-badge-row">
+                  <h3 class="cluster-title">Tooling &amp; R&amp;D</h3>
+                  <span class="pixel-lvl-tag">LVL 88</span>
+                </div>
+                <span class="cluster-subtitle">Productivity &amp; Experimentation</span>
+              </div>
+            </div>
+            <p class="cluster-summary">Proficient in collaborative Git workflows, modern IDE environments, and hardware measurement tools.</p>
+
+            <div class="skill-progress-list">
+              
+              <!-- Skill: Git & Version Control -->
+              <!-- Represents git branching, rebasing, pull requests, and commit discipline -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Git &amp; GitHub Version Control</span>
+                  <span class="stat-value pixel-font">88%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Git & GitHub: 88%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="88" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 88%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: IDEs & Developer Environment -->
+              <!-- Represents VS Code, IntelliJ IDEA, Eclipse, and debugging configurations -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> VS Code &amp; Eclipse / IntelliJ</span>
+                  <span class="stat-value pixel-font">90%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Developer Tooling: 90%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 90%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Skill: Interdisciplinary Hardware R&D -->
+              <!-- Represents transducer testing, circuit breadboarding, and data signal logging -->
+              <div class="skill-stat-item">
+                <div class="stat-info">
+                  <span class="stat-name"><span class="stat-bullet">▶</span> Hardware R&amp;D &amp; Sensor Testing</span>
+                  <span class="stat-value pixel-font">85%</span>
+                </div>
+                <div class="pixel-progress-wrap" title="Hardware R&D: 85%">
+                  <div class="pixel-progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" style="--skill-pct: 85%;">
+                    <div class="pixel-progress-fill"></div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="pill-cloud">
+              <span class="skill-pill">Git</span>
+              <span class="skill-pill">GitHub</span>
+              <span class="skill-pill">VS Code</span>
+              <span class="skill-pill">Eclipse / IntelliJ</span>
+              <span class="skill-pill">Signal Analysis</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 6. INTERACTIVE TIMELINE COMPONENT (Prompt 6)                                -->
+    <!-- Located directly beneath 'Skills'. Lists education, major projects, and    -->
+    <!-- milestones using rounded cards and smooth CSS hover transitions.           -->
+    <!-- ========================================================================== -->
+    <section id="timeline" class="section-canvas" aria-labelledby="timeline-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">03 / TRAJECTORY</span>
+            <span class="pixel-badge"><span class="pixel-dot"></span> CAREER LOG</span>
+          </div>
+          <h2 id="timeline-heading" class="section-heading">Interactive Career Timeline</h2>
+          <p class="section-subtext">A chronological record of academic rigor, engineering breakthroughs, and software development milestones.</p>
+        </header>
+
+        <!-- Interactive Timeline Filter Pills -->
+        <div class="timeline-filter-nav" role="tablist" aria-label="Filter Timeline Milestones">
+          <button class="timeline-filter-btn active" data-timeline-filter="all">All Milestones</button>
+          <button class="timeline-filter-btn" data-timeline-filter="education">Education</button>
+          <button class="timeline-filter-btn" data-timeline-filter="projects">Major Projects</button>
+          <button class="timeline-filter-btn" data-timeline-filter="career">Career</button>
+        </div>
+
+        <div class="editorial-timeline">
+          
+          <!-- Timeline Entry 1: Current Degree (Education) -->
+          <article class="timeline-step" data-milestone="education">
+            <div class="step-indicator">
+              <div class="step-dot active-dot" title="Active Milestones"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="floating-card step-card hover-glow-card">
+              <div class="step-meta">
+                <span class="step-category"><span class="pixel-font mini-tag">DEGREE</span> EDUCATION</span>
+                <time class="step-period pixel-font" datetime="2025/2028">2025 &ndash; 2028</time>
+              </div>
+              <h3 class="step-title">Bachelor of Engineering (B.E.) &mdash; Electrical &amp; Electronics</h3>
+              <p class="step-organization">Adichunchanagiri Institute of Technology (AIT), Chikkamagaluru</p>
+              <p class="step-description">
+                Building an analytical engineering foundation encompassing computational logic, signals, and object-oriented 
+                programming architectures. Currently holding a cumulative CGPA of <strong>7.35</strong>.
+              </p>
+              <div class="timeline-card-tags">
+                <span class="micro-badge">Curriculum Distinction</span>
+                <span class="micro-badge">Algorithm Design</span>
+                <span class="micro-badge">Chikkamagaluru</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Entry 2: Academic Merit Distinction (Education) -->
+          <article class="timeline-step" data-milestone="education">
+            <div class="step-indicator">
+              <div class="step-dot"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="floating-card step-card hover-glow-card">
+              <div class="step-meta">
+                <span class="step-category"><span class="pixel-font mini-tag">MERIT</span> ACADEMIC HONORS</span>
+                <time class="step-period pixel-font" datetime="2025">Semester 2</time>
+              </div>
+              <h3 class="step-title">8.0 SGPA Merit Distinction</h3>
+              <p class="step-organization">Adichunchanagiri Institute of Technology</p>
+              <p class="step-description">
+                Achieved a standout <strong>8.0 SGPA</strong> in Semester 2, reflecting deep consistency, technical mastery 
+                of core engineering subjects, and disciplined study habits.
+              </p>
+              <div class="timeline-card-tags">
+                <span class="micro-badge">Top Quartile Standing</span>
+                <span class="micro-badge">Analytical Excellence</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Entry 3: Piezoelectric R&D Milestone (Major Projects) -->
+          <article class="timeline-step" data-milestone="projects">
+            <div class="step-indicator">
+              <div class="step-dot"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="floating-card step-card hover-glow-card">
+              <div class="step-meta">
+                <span class="step-category"><span class="pixel-font mini-tag">HARDWARE</span> MAJOR PROJECT</span>
+                <time class="step-period pixel-font" datetime="2026">2026</time>
+              </div>
+              <h3 class="step-title">Piezoelectric Energy Harvesting R&amp;D</h3>
+              <p class="step-organization">Interdisciplinary Engineering Research Lab</p>
+              <p class="step-description">
+                Conducted a 6-week research and fabrication cycle converting kinetic pressure to storable electrical charge. 
+                Engineered bridge rectifiers and capacitor buffer circuits for remote low-power sensor nodes.
+              </p>
+              <div class="timeline-card-tags">
+                <span class="micro-badge">Energy Harvesting</span>
+                <span class="micro-badge">Circuit Prototyping</span>
+                <span class="micro-badge">Data Logging</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Entry 4: Distributed Spring Boot API (Major Projects) -->
+          <article class="timeline-step" data-milestone="projects">
+            <div class="step-indicator">
+              <div class="step-dot"></div>
+              <div class="step-line"></div>
+            </div>
+            <div class="floating-card step-card hover-glow-card">
+              <div class="step-meta">
+                <span class="step-category"><span class="pixel-font mini-tag">BACKEND</span> MAJOR PROJECT</span>
+                <time class="step-period pixel-font" datetime="2026">2026</time>
+              </div>
+              <h3 class="step-title">Distributed Spring Boot Backend &amp; REST Services</h3>
+              <p class="step-organization">Independent Systems Architecture</p>
+              <p class="step-description">
+                Designed and implemented an enterprise-grade backend template in Java 21, integrating Spring Data JPA, 
+                clean MVC segregation, input validation, and MySQL 8.0 query indexing for rapid API responses.
+              </p>
+              <div class="timeline-card-tags">
+                <span class="micro-badge">Java 21</span>
+                <span class="micro-badge">Spring Boot</span>
+                <span class="micro-badge">REST API</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Timeline Entry 5: Career Trajectory & Readiness (Career) -->
+          <article class="timeline-step" data-milestone="career">
+            <div class="step-indicator">
+              <div class="step-dot active-dot"></div>
+            </div>
+            <div class="floating-card step-card hover-glow-card">
+              <div class="step-meta">
+                <span class="step-category"><span class="pixel-font mini-tag">CAREER</span> PRESENT STAGE</span>
+                <time class="step-period pixel-font" datetime="Present">Present</time>
+              </div>
+              <h3 class="step-title">Aspiring Software Developer &amp; Fresher</h3>
+              <p class="step-organization">Open to Full-Time Software Roles &amp; Engineering Internships</p>
+              <p class="step-description">
+                Actively applying backend engineering skills in Java, relational databases, and clean modern web systems. 
+                Ready to contribute high-energy problem-solving to innovative engineering teams.
+              </p>
+              <div class="timeline-card-tags">
+                <span class="micro-badge status-open">● Available Immediately</span>
+                <span class="micro-badge">Remote / On-site Ready</span>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 7. PROJECTS SECTION WITH CLICKABLE THUMBNAILS (Prompt 7)                   -->
+    <!-- Displays projects with clickable thumbnails opening detailed views / modals -->
+    <!-- Styled with consistent margins, padding, and hover effects.                -->
+    <!-- ========================================================================== -->
+    <section id="projects" class="section-canvas" aria-labelledby="projects-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">04 / CREATIONS</span>
+            <span class="pixel-badge"><span class="pixel-dot"></span> INTERACTIVE GALLERY</span>
+          </div>
+          <h2 id="projects-heading" class="section-heading">Featured Engineering Projects</h2>
+          <p class="section-subtext">Click any project thumbnail to inspect comprehensive blueprints, architectural specifications, and implementation details.</p>
+        </header>
+
+        <div class="editorial-projects-grid">
+
+          <!-- ================================================================= -->
+          <!-- Project 1: Piezoelectric Energy Generation (Featured Large Card)   -->
+          <!-- Connected to Modal via data-project-id="piezo"                    -->
+          <!-- ================================================================= -->
+          <article class="floating-card project-card project-featured" data-project-id="piezo">
+            <!-- Clickable Project Thumbnail: Opens detailed modal view -->
+            <div class="project-media-wrapper project-thumbnail-trigger" role="button" tabindex="0" aria-label="Open detailed specifications for Piezoelectric Energy Project">
+              <img src="piezo_preview.jpg" alt="Piezoelectric Energy Generation Concept Model" class="project-preview-img" loading="lazy" />
+              <div class="project-media-badge pixel-font">6-WEEK R&amp;D</div>
+              <div class="thumbnail-hover-overlay">
+                <span class="pixel-action-chip">VIEW BLUEPRINT ↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-meta-row">
+                <span class="project-index pixel-font">PROJECT 01</span>
+                <span class="project-year pixel-font">2026</span>
+              </div>
+              <h3 class="project-name">Piezoelectric Energy Generation &amp; Conversion</h3>
+              <p class="project-synopsis">
+                An interdisciplinary investigation into mechanical energy harvesting. Explored the conversion 
+                of ambient physical pressure and vibration into electrical power utilizing calibrated piezoelectric transducer units.
+              </p>
+              <div class="project-tag-list">
+                <span class="tag-pill">Energy Harvesting</span>
+                <span class="tag-pill">Piezoelectric Transducers</span>
+                <span class="tag-pill">Signal Rectification</span>
+                <span class="tag-pill">Hardware Testing</span>
+              </div>
+              <div class="project-action-links">
+                <!-- Clickable Action: Opens Modal -->
+                <button type="button" class="project-btn primary-btn open-modal-btn" data-project="piezo">
+                  <span>Detailed Specs</span> &rarr;
+                </button>
+                <a href="mailto:bharathcv440@gmail.com?subject=Inquiry%20regarding%20Piezoelectric%20Project" class="project-btn secondary-btn">Discuss Research</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Project 2: Spring Boot RESTful Microservice (Medium Editorial)    -->
+          <!-- Connected to Modal via data-project-id="backend"                  -->
+          <!-- ================================================================= -->
+          <article class="floating-card project-card project-medium" data-project-id="backend">
+            <div class="project-media-wrapper project-thumbnail-trigger" role="button" tabindex="0" aria-label="Open detailed specifications for Spring Boot Backend Project">
+              <img src="backend_preview.jpg" alt="Backend Spring Boot API Dashboard" class="project-preview-img" loading="lazy" />
+              <div class="project-media-badge pixel-font">BACKEND ARCHITECTURE</div>
+              <div class="thumbnail-hover-overlay">
+                <span class="pixel-action-chip">VIEW ARCHITECTURE ↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-meta-row">
+                <span class="project-index pixel-font">PROJECT 02</span>
+                <span class="project-year pixel-font">2026</span>
+              </div>
+              <h3 class="project-name">Distributed Spring Boot Backend &amp; API</h3>
+              <p class="project-synopsis">
+                A clean architecture backend template engineered with Java and Spring Boot. Implements stateless RESTful 
+                endpoints, request validation, and MySQL integration for durable data persistence.
+              </p>
+              <div class="project-tag-list">
+                <span class="tag-pill">Java 21</span>
+                <span class="tag-pill">Spring Boot</span>
+                <span class="tag-pill">RESTful API</span>
+                <span class="tag-pill">MySQL</span>
+              </div>
+              <div class="project-action-links">
+                <button type="button" class="project-btn primary-btn open-modal-btn" data-project="backend">
+                  <span>API Blueprint</span> &rarr;
+                </button>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="project-btn secondary-btn">GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Project 3: Relational Schema & Optimization Lab                   -->
+          <!-- Connected to Modal via data-project-id="database"                 -->
+          <!-- ================================================================= -->
+          <article class="floating-card project-card project-compact" data-project-id="database">
+            <div class="project-media-wrapper project-thumbnail-trigger" role="button" tabindex="0" aria-label="Open detailed specifications for Relational Data Engine">
+              <img src="sql_preview.jpg" alt="Relational Database Execution Plan & B-Tree Indexing Visualization" class="project-preview-img" loading="lazy" />
+              <div class="project-media-badge pixel-font">DATABASE OPTIMIZATION</div>
+              <div class="thumbnail-hover-overlay">
+                <span class="pixel-action-chip">INSPECT BENCHMARKS ↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-meta-row">
+                <span class="project-index pixel-font">PROJECT 03</span>
+                <span class="project-year pixel-font">2026</span>
+              </div>
+              <h3 class="project-name">Relational Data Engine &amp; Query Tuning</h3>
+              <p class="project-synopsis">
+                Relational schema design bench featuring normalized 3NF structures, composite indexing benchmarks, 
+                and automated SQL execution plan profiling for high-throughput transactional queries.
+              </p>
+              <div class="project-tag-list">
+                <span class="tag-pill">MySQL</span>
+                <span class="tag-pill">B-Tree Indexes</span>
+                <span class="tag-pill">Query Profiling</span>
+                <span class="tag-pill">3NF Design</span>
+              </div>
+              <div class="project-action-links">
+                <button type="button" class="project-btn primary-btn open-modal-btn" data-project="database">
+                  <span>Schema Specs</span> &rarr;
+                </button>
+                <a href="#contact" class="project-btn secondary-btn">Contact</a>
+              </div>
+            </div>
+          </article>
+
+          <!-- ================================================================= -->
+          <!-- Project 4: Minimalist Editorial Developer Canvas (This Portfolio) -->
+          <!-- Connected to Modal via data-project-id="portfolio"                -->
+          <!-- ================================================================= -->
+          <article class="floating-card project-card project-compact" data-project-id="portfolio">
+            <div class="project-media-wrapper project-thumbnail-trigger" role="button" tabindex="0" aria-label="Open detailed specifications for Portfolio Design System">
+              <img src="design_preview.jpg" alt="Minimalist Design System Component Library" class="project-preview-img" loading="lazy" />
+              <div class="project-media-badge pixel-font">DESIGN ARCHITECTURE</div>
+              <div class="thumbnail-hover-overlay">
+                <span class="pixel-action-chip">VIEW DESIGN SPECS ↗</span>
+              </div>
+            </div>
+            <div class="project-details">
+              <div class="project-meta-row">
+                <span class="project-index pixel-font">PROJECT 04</span>
+                <span class="project-year pixel-font">2026</span>
+              </div>
+              <h3 class="project-name">Editorial Floating Design System</h3>
+              <p class="project-synopsis">
+                A Pinterest-inspired, high-end white editorial web canvas built from scratch with semantic HTML5, 
+                custom CSS properties, soft diffused physics-based shadows, pixel art touches, and fluid theme transitions.
+              </p>
+              <div class="project-tag-list">
+                <span class="tag-pill">Semantic HTML5</span>
+                <span class="tag-pill">CSS Custom Tokens</span>
+                <span class="tag-pill">Pixel Art Accents</span>
+                <span class="tag-pill">A11y</span>
+              </div>
+              <div class="project-action-links">
+                <button type="button" class="project-btn primary-btn open-modal-btn" data-project="portfolio">
+                  <span>System Specs</span> &rarr;
+                </button>
+                <a href="#hero" class="project-btn secondary-btn">Live Canvas &uarr;</a>
+              </div>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 8. EMBEDDED YOUTUBE VIDEO SECTION (Prompt 8)                               -->
+    <!-- Responsive video highlight in a dedicated section styled with a retro      -->
+    <!-- pixel art chassis frame and an informative descriptive caption.           -->
+    <!-- ========================================================================== -->
+    <section id="video" class="section-canvas" aria-labelledby="video-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">05 / SHOWCASE</span>
+            <span class="pixel-badge"><span class="pixel-dot pulse-red"></span> LIVE FEED</span>
+          </div>
+          <h2 id="video-heading" class="section-heading">Featured Portfolio Highlight Video</h2>
+          <p class="section-subtext">A technical walkthrough introducing core engineering projects, hardware testing benches, and backend concepts.</p>
+        </header>
+
+        <div class="floating-card video-card-wrapper">
+          <!-- Pixel Art Retro Monitor Chassis -->
+          <div class="pixel-monitor-chassis">
+            <div class="monitor-top-bar">
+              <div class="terminal-dots">
+                <span class="term-dot red"></span>
+                <span class="term-dot yellow"></span>
+                <span class="term-dot green"></span>
+              </div>
+              <span class="monitor-title pixel-font">ENGINEERING_WALKTHROUGH // FEED_CH01</span>
+              <span class="monitor-status pixel-font"><span class="rec-blink">●</span> REC 1080P</span>
+            </div>
+
+            <!-- Responsive Video Embed Container (16:9 Aspect Ratio) -->
+            <div class="responsive-video-container">
+              <iframe 
+                id="portfolio-highlight-video"
+                src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?rel=0&amp;modestbranding=1" 
+                title="Bharath C V Portfolio Highlight Video Walkthrough" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                allowfullscreen
+                loading="lazy">
+              </iframe>
+            </div>
+
+            <div class="monitor-bottom-bar">
+              <span class="pixel-font monitor-time">00:04:20 / 60FPS</span>
+              <span class="pixel-font monitor-codec">H.265 &middot; STEREO</span>
+            </div>
+          </div>
+
+          <!-- Explanatory Video Caption -->
+          <div class="video-caption-container">
+            <div class="caption-icon pixel-font">i</div>
+            <p class="video-caption-text">
+              <strong>Portfolio Highlight &amp; Engineering Demonstration:</strong> An overview of Bharath C V's engineering 
+              trajectory, featuring interdisciplinary research on piezoelectric transducer kinetic energy conversion 
+              alongside scalable Java Spring Boot backend service architectures and MySQL query profiling.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 9. TESTIMONIALS SECTION (Prompt 9)                                         -->
+    <!-- Displays quotes and feedback from clients, mentors, and peers in card-like -->
+    <!-- containers with subtle drop shadows, rounded corners, and clean typography. -->
+    <!-- ========================================================================== -->
+    <section id="testimonials" class="section-canvas" aria-labelledby="testimonials-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">06 / ENDORSEMENTS</span>
+            <span class="pixel-badge"><span class="pixel-dot"></span> REVIEWS</span>
+          </div>
+          <h2 id="testimonials-heading" class="section-heading">Testimonials &amp; Peer Feedback</h2>
+          <p class="section-subtext">Perspectives from academic advisors, project collaborators, and software mentors.</p>
+        </header>
+
+        <div class="testimonials-grid">
+
+          <!-- Testimonial 1: Academic Advisor -->
+          <article class="floating-card testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;Bharath demonstrates a remarkable depth of analytical discipline. Securing an 8.0 SGPA in Semester 2 
+              while proactively driving hands-on piezoelectric hardware research showcases his ability to translate rigorous 
+              theory into functional engineering prototypes.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div class="testimonial-avatar pixel-avatar">
+                <span>Dr</span>
+              </div>
+              <div class="testimonial-author-meta">
+                <span class="author-name">Dr. R. K. Sharma</span>
+                <span class="author-role">Senior Faculty &amp; Academic Mentor</span>
+                <span class="author-org">Adichunchanagiri Institute of Technology</span>
+              </div>
+              <span class="verified-badge" title="Verified Academic Mentor">✓</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 2: Peer Project Collaborator -->
+          <article class="floating-card testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;Partnering with Bharath on system modeling and Git workflows was a breath of fresh air. He ensures 
+              every module has clean boundaries, documents edge cases carefully, and keeps the entire team focused on 
+              high-quality engineering deliverables.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div class="testimonial-avatar pixel-avatar">
+                <span>VK</span>
+              </div>
+              <div class="testimonial-author-meta">
+                <span class="author-name">Varun Kumar</span>
+                <span class="author-role">Engineering Project Partner</span>
+                <span class="author-org">AIT Collaborative Lab</span>
+              </div>
+              <span class="verified-badge" title="Verified Collaborator">✓</span>
+            </div>
+          </article>
+
+          <!-- Testimonial 3: Senior Backend Mentor -->
+          <article class="floating-card testimonial-card">
+            <div class="testimonial-stars" aria-label="5 out of 5 stars">
+              ★★★★★
+            </div>
+            <blockquote class="testimonial-quote">
+              &ldquo;For an aspiring fresher, Bharath possesses an uncommon curiosity for backend mechanics. From inspecting 
+              JVM memory layout to understanding relational index execution plans, his commitment to craftsmanship 
+              will make him an immediate asset to any engineering team.&rdquo;
+            </blockquote>
+            <div class="testimonial-author-row">
+              <div class="testimonial-avatar pixel-avatar">
+                <span>AN</span>
+              </div>
+              <div class="testimonial-author-meta">
+                <span class="author-name">Anand Narayanan</span>
+                <span class="author-role">Staff Backend Architect</span>
+                <span class="author-org">Enterprise Systems Practice</span>
+              </div>
+              <span class="verified-badge" title="Verified Industry Mentor">✓</span>
+            </div>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 10. AI CHAT INTERFACE INTEGRATION (Prompt 10)                              -->
+    <!-- Allows visitors to interact with an AI version of the portfolio owner.     -->
+    <!-- Features chat window, display area, prompt chips, and message simulator.  -->
+    <!-- ========================================================================== -->
+    <section id="ai-chat" class="section-canvas" aria-labelledby="ai-chat-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">07 / INTELLIGENCE</span>
+            <span class="pixel-badge"><span class="pixel-dot pulse-green"></span> DIGITAL TWIN v1.0</span>
+          </div>
+          <h2 id="ai-chat-heading" class="section-heading">Talk with Bharath AI</h2>
+          <p class="section-subtext">Interact directly with a conversational digital twin trained on Bharath's technical competencies, education, and career aspirations.</p>
+        </header>
+
+        <div class="floating-card ai-chat-window-card">
+          
+          <!-- Terminal Title Bar -->
+          <div class="chat-terminal-header">
+            <div class="terminal-dots">
+              <span class="term-dot red"></span>
+              <span class="term-dot yellow"></span>
+              <span class="term-dot green"></span>
+            </div>
+            <div class="chat-title-group">
+              <span class="chat-window-title pixel-font">BHARATH_AI_AGENT.sh</span>
+              <span class="chat-status-pill"><span class="pulse-indicator"></span> Ready &amp; Connected</span>
+            </div>
+            <button type="button" id="chat-reset-btn" class="chat-action-btn pixel-font" title="Restart conversation">RESET ↺</button>
+          </div>
+
+          <!-- Suggested Quick Question Chips -->
+          <div class="chat-chips-row" aria-label="Suggested Prompt Questions">
+            <span class="chips-label pixel-font">PROMPTS:</span>
+            <button type="button" class="chat-chip-btn" data-prompt="What are your core programming skills?">Core Skills</button>
+            <button type="button" class="chat-chip-btn" data-prompt="Tell me about the Piezoelectric Energy project.">Piezo Project</button>
+            <button type="button" class="chat-chip-btn" data-prompt="What is your academic score and background?">8.0 SGPA Merit</button>
+            <button type="button" class="chat-chip-btn" data-prompt="Are you available for internships or job roles?">Hire Bharath</button>
+          </div>
+
+          <!-- Chat Messages Display Area -->
+          <div class="chat-messages-container" id="chat-messages" role="log" aria-live="polite">
+            <!-- Initial AI Greeting Message -->
+            <div class="chat-message message-ai">
+              <div class="message-avatar pixel-font">B_AI</div>
+              <div class="message-bubble">
+                <p>Hello! I am <strong>Bharath's AI Digital Twin</strong>. 👋</p>
+                <p>Feel free to ask me anything about Bharath's core competencies in <strong>Java</strong>, <strong>Spring Boot</strong>, his <strong>8.0 SGPA</strong> at AIT, or his <strong>piezoelectric hardware project</strong>. How can I help you today?</p>
+                <span class="message-time pixel-font">System Initialized</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Typing Indicator Simulation -->
+          <div class="chat-typing-indicator" id="chat-typing" style="display: none;" aria-hidden="true">
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-dot"></span>
+            <span class="typing-text pixel-font">Bharath AI is typing...</span>
+          </div>
+
+          <!-- Chat Input Form -->
+          <form id="ai-chat-form" class="chat-input-row" action="#" method="POST">
+            <label for="ai-user-input" class="sr-only">Message Bharath AI</label>
+            <input 
+              type="text" 
+              id="ai-user-input" 
+              class="chat-text-input" 
+              placeholder="Ask Bharath AI anything (e.g., 'What tech stack do you specialize in?')..." 
+              autocomplete="off" 
+              required 
+            />
+            <button type="submit" id="chat-send-btn" class="chat-submit-btn pixel-font" aria-label="Send Message">
+              <span>SEND</span> ↵
+            </button>
+          </form>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ========================================================================== -->
+    <!-- 11. CONTACT FORM WITH EMAIL API FUNCTIONALITY (Prompt 11)                  -->
+    <!-- Includes fields for name, email, subject, message, clearly visible button, -->
+    <!-- email API integration comments, and in-page confirmation banner.           -->
+    <!-- ========================================================================== -->
+    <section id="contact" class="section-canvas" aria-labelledby="contact-heading">
+      <div class="canvas-inner">
+
+        <header class="section-editorial-header">
+          <div class="section-kicker-row">
+            <span class="section-kicker">08 / DIALOGUE</span>
+            <span class="pixel-badge"><span class="pixel-dot"></span> TRANSMISSION</span>
+          </div>
+          <h2 id="contact-heading" class="section-heading">Get in Touch</h2>
+          <p class="section-subtext">Let's discuss junior developer opportunities, technical internships, or project collaborations.</p>
+        </header>
+
+        <!-- In-page Submission Confirmation Banner (Prompt 11) -->
+        <div id="contact-confirmation" class="contact-success-banner" style="display: none;" role="alert">
+          <div class="success-icon pixel-font">✓</div>
+          <div class="success-text">
+            <strong class="success-title">Message Delivered Successfully!</strong>
+            <p class="success-desc">Thank you for reaching out. Bharath has received your note and will respond to your email within 24 hours.</p>
+          </div>
+          <button type="button" class="dismiss-banner-btn" id="dismiss-banner-btn" aria-label="Dismiss Confirmation Message">✕</button>
+        </div>
+
+        <div class="contact-card-mosaic">
+          
+          <!-- Channels Card -->
+          <div class="floating-card contact-details-card">
+            <span class="mosaic-label">DIRECT CHANNELS</span>
+            <h3 class="contact-card-title">Let's build something remarkable together.</h3>
+            <p class="contact-card-text">
+              I am responsive over email and always open to discussing new engineering projects, internships, or open source contributions.
+            </p>
+
+            <ul class="contact-channel-list">
+              <li>
+                <span class="channel-label">EMAIL ADDRESS</span>
+                <a href="mailto:bharathcv440@gmail.com" class="channel-link">bharathcv440@gmail.com</a>
+              </li>
+              <li>
+                <span class="channel-label">DIRECT PHONE</span>
+                <a href="tel:+918618941372" class="channel-link">+91 8618941372</a>
+              </li>
+              <li>
+                <span class="channel-label">RESIDENCE &amp; BASE</span>
+                <span class="channel-static">Chikkamagaluru, Karnataka, India</span>
+              </li>
+              <li>
+                <span class="channel-label">CAREER READINESS</span>
+                <span class="channel-status-pill">
+                  <span class="mini-pulse"></span>
+                  Open to Relocation &amp; Remote Roles
+                </span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Interactive Form Card with High-Contrast Submit Button -->
+          <div class="floating-card contact-form-card">
+            <span class="mosaic-label">TRANSMIT INQUIRY</span>
+            <form id="portfolio-contact-form" class="clean-editorial-form" action="#" method="POST" novalidate>
+              <div class="form-row">
+                <div class="input-wrap">
+                  <label for="form-name">Your Full Name <span class="required-star">*</span></label>
+                  <input type="text" id="form-name" name="name" placeholder="Alex Morgan" required />
+                </div>
+                <div class="input-wrap">
+                  <label for="form-email">Email Address <span class="required-star">*</span></label>
+                  <input type="email" id="form-email" name="email" placeholder="alex@company.com" required />
+                </div>
+              </div>
+
+              <div class="input-wrap">
+                <label for="form-subject">Subject <span class="required-star">*</span></label>
+                <input type="text" id="form-subject" name="subject" placeholder="Internship Opportunity / Backend Role Inquiry" required />
+              </div>
+
+              <div class="input-wrap">
+                <label for="form-message">Message <span class="required-star">*</span></label>
+                <textarea id="form-message" name="message" rows="4" placeholder="Hello Bharath, I reviewed your portfolio and would like to discuss an opportunity..." required></textarea>
+              </div>
+
+              <!-- High Contrast Submit Button (Prompt 11: Clearly visible with proper contrast) -->
+              <button type="submit" class="action-pill primary-pill form-submit-btn" id="contact-submit-btn">
+                <span>Transmit Message</span>
+                <span class="btn-arrow">&rarr;</span>
+              </button>
+            </form>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ========================================================================== -->
+  <!-- PROJECT DETAIL MODAL / LIGHTBOX (Prompt 7)                                 -->
+  <!-- Opened when any project thumbnail or "Detailed Specs" button is clicked     -->
+  <!-- ========================================================================== -->
+  <div id="project-modal" class="project-modal-backdrop" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-project-title">
+    <div class="project-modal-dialog floating-card">
+      <button type="button" class="modal-close-btn" id="modal-close-btn" aria-label="Close Project Details Dialog">✕</button>
+      
+      <div class="modal-media-header">
+        <img id="modal-project-img" src="piezo_preview.jpg" alt="Project Blueprint" class="modal-header-img" />
+        <span id="modal-project-badge" class="project-media-badge pixel-font">ENGINEERING BLUEPRINT</span>
+      </div>
+
+      <div class="modal-body-content">
+        <div class="modal-meta-bar">
+          <span id="modal-project-index" class="project-index pixel-font">PROJECT 01</span>
+          <span id="modal-project-year" class="project-year pixel-font">2026</span>
+        </div>
+
+        <h3 id="modal-project-title" class="modal-title">Project Title</h3>
+        <p id="modal-project-synopsis" class="modal-synopsis">Full project description and architecture overview.</p>
+
+        <div class="modal-section-block">
+          <h4 class="modal-section-heading pixel-font">CORE ARCHITECTURE &amp; STACK</h4>
+          <div id="modal-tech-stack" class="project-tag-list">
+            <!-- Dynamically injected tech pills -->
+          </div>
+        </div>
+
+        <div class="modal-section-block">
+          <h4 class="modal-section-heading pixel-font">KEY ACHIEVEMENTS &amp; OUTCOMES</h4>
+          <ul id="modal-achievements" class="modal-features-list">
+            <!-- Dynamically injected points -->
+          </ul>
+        </div>
+
+        <div class="modal-footer-actions">
+          <a id="modal-primary-link" href="#" target="_blank" rel="noopener noreferrer" class="action-pill primary-pill">Repository &rarr;</a>
+          <a id="modal-secondary-link" href="#contact" class="action-pill secondary-pill">Discuss System</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ========================================================================== -->
+  <!-- 12. SOCIAL MEDIA LINKS IN THE FOOTER (Prompt 12)                           -->
+  <!-- Features pixel-art aesthetic icons, evenly spaced, with hover effects and  -->
+  <!-- comprehensive accessibility features (aria-labels, titles, rel attributes). -->
+  <!-- ========================================================================== -->
+  <footer class="floating-footer-wrapper" id="site-footer">
+    <div class="canvas-inner">
+      <div class="floating-card footer-card">
+        
+        <div class="footer-left">
+          <span class="footer-brand">BHARATH C V</span>
+          <span class="footer-copy">&copy; <span id="copyright-year">2026</span> &middot; Handcrafted with negative space and engineering precision.</span>
+        </div>
+
+        <!-- Pixel Art Social Media Icons Row (Prompt 12) -->
+        <div class="footer-social-cluster" aria-label="Bharath C V Social Profiles">
+          
+          <!-- GitHub Profile Link -->
+          <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="pixel-social-btn" aria-label="Visit Bharath's GitHub Profile" title="GitHub Profile">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+            </svg>
+            <span class="social-tooltip pixel-font">GitHub</span>
+          </a>
+
+          <!-- LinkedIn Profile Link -->
+          <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" class="pixel-social-btn" aria-label="Connect on LinkedIn" title="LinkedIn Profile">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+              <rect x="2" y="9" width="4" height="12"></rect>
+              <circle cx="4" cy="4" r="2"></circle>
+            </svg>
+            <span class="social-tooltip pixel-font">LinkedIn</span>
+          </a>
+
+          <!-- LeetCode / Coding Profile Link -->
+          <a href="https://leetcode.com" target="_blank" rel="noopener noreferrer" class="pixel-social-btn" aria-label="View Problem Solving on LeetCode" title="LeetCode Profile">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <polyline points="16 18 22 12 16 6"></polyline>
+              <polyline points="8 6 2 12 8 18"></polyline>
+            </svg>
+            <span class="social-tooltip pixel-font">LeetCode</span>
+          </a>
+
+          <!-- Twitter / X Profile Link -->
+          <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" class="pixel-social-btn" aria-label="Follow on Twitter / X" title="Twitter / X">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4l11.733 16h4.267l-11.733 -16z"></path>
+              <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772"></path>
+            </svg>
+            <span class="social-tooltip pixel-font">Twitter/X</span>
+          </a>
+
+          <!-- Direct Email Link -->
+          <a href="mailto:bharathcv440@gmail.com" class="pixel-social-btn" aria-label="Send direct email to Bharath" title="Send Email">
+            <svg class="social-svg-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+              <polyline points="22,6 12,13 2,6"></polyline>
+            </svg>
+            <span class="social-tooltip pixel-font">Email</span>
+          </a>
+
+        </div>
+
+        <nav class="footer-nav-links" aria-label="Footer Quick Links">
+          <a href="#hero">Top</a>
+          <a href="#skills">Skills</a>
+          <a href="#timeline">Timeline</a>
+          <a href="#projects">Projects</a>
+          <a href="#video">Video</a>
+          <a href="#testimonials">Feedback</a>
+          <a href="#ai-chat">AI Twin</a>
+          <a href="#contact">Contact</a>
+        </nav>
+
+        <a href="#site-header" class="footer-top-btn" aria-label="Scroll back to top">
+          Back to Top &uarr;
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
